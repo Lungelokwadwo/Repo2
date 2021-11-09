@@ -1,0 +1,19 @@
+html{
+    padding: 2%;
+}
+header{
+    text-align: center;
+}
+.section{
+    background-color: rgb(185, 171, 136);
+    color: gold;
+}
+.sections{
+    background-color: rgb(116, 111, 106);
+    color: gold;
+}
+label{
+    border: 1px solid grey;
+    background-color: darkgrey;
+    padding: .1%;
+}
