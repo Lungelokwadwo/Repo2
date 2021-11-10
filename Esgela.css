@@ -13,7 +13,7 @@ header{
     color: gold;
 }
 label{
-    border: 1px solid grey;
+    border: 2px solid grey;
     background-color: darkgrey;
-    padding: .1%;
+    padding: .3%;
 }

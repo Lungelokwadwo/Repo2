@@ -8,315 +8,435 @@
     <body>
         <header><strong><h4> KSD TVET COLLEGE APPLICATION FORM </h4></strong></header>
         <p> Please complete the entire form before you hit the submit button. </p>
-        <form action="https:/formsubmit.co/lungelokwadwoo@gmail.com">
+        <form action="#">
             <p>Select where applicable:</p>
-            <div class="form-group">
-                <label for="Mthatha"><strong> MTHATHA CAMPUS </strong></label>
-                <input type="checkbox" name="" id="Mthatha">
+            <div class="row">
+                <div class="form-group col-lg-3 col-md-6 col-xm-6">
+                    <label for="Mthatha"><strong> MTHATHA CAMPUS </strong></label>
+                    <input type="checkbox" name="" id="Mthatha">
+                </div>
+                <div class="form-group form-group col-lg-3 col-md-6 col-xm-6">
+                    <label for="campus"><strong> ENGCOBO CAMPUS </strong></label>
+                    <input type="checkbox" name="" id="ENGCOBO">
+                </div>
+                <div class="form-group form-group col-lg-3 col-md-6 col-xm-6">
+                    <label for="campus"><strong> MNGAZI CAMPUS </strong></label>
+                    <input type="checkbox" name="" id="MNGAZI">
+                </div>
+                <div class="form-group form-group col-lg-3 col-md-6 col-xm-6">
+                    <label for="campus"><strong> MAPUZI CAMPUS </strong></label>
+                    <input type="checkbox" name="" id="MAPUZI">
+                </div>
             </div>
-            <div class="form-group">
-                <label for="campus"><strong> ENGCOBO CAMPUS </strong></label>
-                <input type="checkbox" name="" id="ENGCOBO">
+            <div class="row">
+                <div class="form-group form-group col-lg-3 col-md-6 col-xm-6">
+                    <label for="campus"><strong> NTABOZUKO CAMPUS </strong></label>
+                    <input type="checkbox" name="" id="ZIMBANE">
+                </div>
+                <div class="form-group form-group col-lg-3 col-md-6 col-xm-6">
+                    <label for="campus"><strong> ZIMBANE CAMPUS </strong></label>
+                    <input type="checkbox" name="" id="LIBODE">
+                </div>
+                <div class="form-group form-group col-lg-3 col-md-6 col-xm-6">
+                    <label for="campus"><strong> LIBODE CAMPUS </strong></label>
+                    <input type="checkbox" name="" id="LIBODE">
+                </div>
             </div>
-            <div class="form-group">
-                <label for="campus"><strong> MNGAZI CAMPUS </strong></label>
-                <input type="checkbox" name="" id="MNGAZI">
-            </div>
-            <div class="form-group">
-                <label for="campus"><strong> NTABOZUKO CAMPUS </strong></label>
-                <input type="checkbox" name="" id="NTABOZUKO">
-            </div>
-            <div class="form-group">
-                <label for="campus"><strong> ZIMBANE CAMPUS </strong></label>
-                <input type="checkbox" name="" id="ZIMBANE">
-            </div>
-            <div class="form-group">
-                <label for="campus"><strong> LIBODE CAMPUS </strong></label>
-                <input type="checkbox" name="" id="LIBODE">
-            </div>
+
             <p class="section"><strong> SECTION A : PERSONAL INFORMATION (as per ID Books) </strong></p>
-            <div >
-                <label for="IDNO"> ID Number </label>
-                <input class="form-control" type="text" name="idnumber" id="">
-                <br>
-                <label for="birthday">Date of Birth</label>
-                <input class="form-control" type="date" name="birthday" id="birthdat">
+            <div class="row">
+                <div class="form-group col-lg-6 col-md-6 col-xs-12">
+                    <label for="IDNO"> ID Number </label>
+                    <input class="form-control" type="number" required>
+                </div>
+                <div class="form-group col-lg-6 col-md-6 col-xs-12">
+                    <label for="birthday"> Date of Birth</label>
+                    <input class="form-control" type="date" name="birthday" id="birthday" required>
+                </div>
             </div>
-            <br>
-            <div>
-                <label for="title">Title</label>
-                <select name="title" id="title">
+            <div class="row">
+                <div class="form-group col-lg-4 col-md-6 col-xs-12">
+                    <label for="title">Title</label>
+                <select class="form-control" name="title" id="title">
                     <option></option>
                     <option value="white">Mr</option>
                     <option value="Pink">Ms</option>
                     <option value="Black">Other</option>
-                </select>
-                <label for="">Specify</label>
+                </select required>
+                </div>
+                <div class="form-group col-lg-4 col-md-6 col-xs-12">
+                    <label for="">If "Other" Specify</label>
+                    <input class="form-control" type="text">
+                </div>
+                <div class="form-group col-lg-4 col-md-6 col-xs-12">
+                    <label>Initials</label>
+                    <input class="form-control" type="text" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-lg-6 col-md-6 col-xm-6">
+                    <label>Surname</label>
+                <input class="form-control" type="text" required>
+                </div>
+                <div class="form-group col-lg-6 col-md-6 col-xm-6">
+                    <label>Maide Surname, if applicable</label>
                 <input class="form-control" type="text">
-                <label>Initials</label>
-                <input class="form-control" type="text" name="" id="">
+                </div>
             </div>
-            <br>
-            <div>
-                <label>Surname</label>
-                <input class="form-control" type="text">
-                <label>Maide Surname, if applicable</label>
-                <input class="form-control" type="text">
+            <div class="row">
+                <div class="form-group col-lg-5 col-md-6 col-xm-12">
+                    <label>Full Names</label>
+                    <input class="form-control" type="text" required>
+                </div>
             </div>
-            <br>
-            <div>
-                <label>Full Names</label>
-                <input class="form-control" type="text">
+            <div class="row">
+                <div class="form-group col-lg-6 col-md-6 col-xs-12">
+                    <label>Home Tel</label>
+                <input class="form-control" type="number" required>
+                </div>
+                <div class="form-group col-lg-6 col-md-6 col-xs-12">
+                    <label>Work Tel</label>
+                    <input class="form-control" type="number">
+                </div>
             </div>
-            <br>
-            <div>
-                <label>Home Tel</label>
-                <input class="form-control" type="number">
-                <label>Work Tel</label>
-                <input class="form-control" type="number">
+            <div class="row">
+                <div class="form-group col-lg-4 col-md-6 col-xs-8">
+                    <label>Cell Number</label>
+                    <input class="form-control" type="number" required>
+                </div>
             </div>
-            <br>
-            <div>
-                <label>Cell Number</label>
-                <input class="form-control" type="number"">
+            <div class="row">
+                <div class="form-group col-lg-4 col-md-6 col-xs-8">
+                    <label>Email Address</label>
+                    <input class="form-control" type="email" required>
+                </div>
             </div>
-            <br>
-            <div>
-                <label>Email Address</label>
-                <input class="form-control" type="email" >
+            <div class="row">
+                <div class="form-group col-lg-3 col-md-4 col-xs-4">
+                    <label>Bursary Assistance Required</label>
+                    <select class="form-control">
+                        <option></option>
+                        <option value="Black">Yes</option>
+                        <option value="Green">No</option>
+                    </select required>
+                </div>
             </div>
-            <br>
-            <label>Bursary Assistance Required</label>
-            <select>
-                <option></option>
-                <option value="Black">Yes</option>
-                <option value="Green">No</option>
-            </select>
             <p class="section"><strong>SECTION B : BIOGRAPHICAL INFORMATION</strong></p>
-            <div>
-                <label>Nationality</label>
-                <input class="form-control" type="text">
+            <div class="row">
+                <div class="form-group col-lg-3 col-md-4 col-xs-6">
+                    <label>Nationality</label>
+                    <input class="form-control" type="text" required>
+                </div>
             </div>
-            <br>
-            <div>
-                <label for="languge">Home Language</label>
-                <select name="languages" id="language">
-                    <option></option>
-                    <option value="Green">Isixhosa</option>
-                    <option value="Blue">Isizulu</option>
-                    <option value="silver">English</option>
-                    <option value="silver">Afrikaans</option>
-                    <option value="silver">Other</option>
-                </select>
-                <label>Specify</label>
+            <div class="row">
+                <div class="form-group col-lg-4 col-md-6 colxs-8">
+                    <label for="languge">Home Language</label>
+                    <select class="form-control" name="languages" id="language">
+                        <option></option>
+                        <option value="Green">Isixhosa</option>
+                        <option value="Blue">Isizulu</option>
+                        <option value="silver">English</option>
+                        <option value="silver">Afrikaans</option>
+                        <option value="silver">Other</option>
+                    </select required>
+                </div>
+                <div class="form-group col-lg-4 col-md-6 colxs-8">
+                    <label>If other Specify</label>
                 <input class="form-control" type="text" name="SpecifyLanguage" id="SpecifyLanguage">
+                </div>
             </div>
-            <br>
-            <div>
-                <label >Prefered Language</label>
-                <input type="text">
+            <div class="row">
+                <div class="form-group col-lg-3 col-md-4 col-xs-6">
+                    <label >Prefered Language</label>
+                    <input class="form-control" type="text" required>
+                </div>
             </div>
-            <br>
-            <div>
-                <label>Gender</label>
-                <select name="gender" id="gender">
-                    <option></option>
-                    <option value="white">Male</option>
-                    <option value="Pink">Female</option>
-                </select>
-                <label>Race</label>
-                <select name="race" id="race">
-                    <option ></option>
-                    <option >African</option>
-                    <option >White</option>
-                    <option >Colored</option>
-                    <option >Indian</option>
-                    <option >Other</option>
-                </select>
-                <label>Specify if <strong>Other</strong></label>
-                <input class="form-control" type="text" name="specify" id="specify">
+            <div class="row">
+                <div class="form-group col-lg-4 col-md-4 col-xs-4">
+                    <label>Gender</label>
+                    <select class="form-control" name="gender" id="gender">
+                        <option></option>
+                        <option value="white">Male</option>
+                        <option value="Pink">Female</option>
+                    </select required>
+                </div>
+                <div class="form-group col-lg-4 col-md-4 col-xs-4">
+                    <label>Race</label>
+                    <select  class="form-control" name="race" id="race">
+                        <option ></option>
+                        <option >African</option>
+                        <option >White</option>
+                        <option >Colored</option>
+                        <option >Indian</option>
+                        <option >Other</option>
+                    </select required>
+                </div>
+                <div class="form-group col-lg-4 col-md-4 col-xs-4">
+                    <label>Specify if <strong>Other</strong></label> 
+                    <input  class="form-control" class="form-control" type="text" name="specify" id="specify">
+                </div>
             </div>
-            <br>
-            <div>
-                <label>Merital Status</label>
-                <select id="MeritalStatus">
-                    <option></option>
-                    <option>Maried</option>
-                    <option>Single</option>
-                    <option>Other</option>
-                </select>
+            <div class="row">
+                <div class="form-group col-lg-3 col-md-4 col=col-xm-5">
+                    <label>Merital Status</label>
+                    <select class="form-control" id="MeritalStatus">
+                        <option></option>
+                        <option>Maried</option>
+                        <option>Single</option>
+                        <option>Other</option>
+                    </select required>
+                </div>
             </div>
-            <br>
             <p"><strong>Citizen Status</strong></p>
-            <div>
-                <label>South African</label>
-                <input type="checkbox">
-                <label>Perm Resident</label>
-                <input type="checkbox">
+            <div class="row">
+                <div class="form-group col-lg-3 col-md-4 col-xs-5">
+                    <label>South African</label>
+                    <input type="checkbox" required>
+                </div>
+                <div class="form-group col-lg-3 col-md-4 col-xs-5">
+                    <label>Perm Resident</label>
+                    <input type="checkbox" required>
+                </div>
             </div>
-            <br>
-            <div>
-                <p>If you are not a South African citizen kindly indicate:</p>
-                <label>Passport Number</label>
-                <input class="form-control" type="number" id="PassportNo">
-                <label>Study Permit:</label>
-                <input class="form-control" type="text"id="StudyPermit">
-                <label>Expiry Date:</label>
-                <input class="form-control" type="date"id="ExpiryDate">
+            <div class="row">
+                <div class="form-group col-lg-6 col-md-4 col-xs-6">
+                    <p>If you are not a South African citizen kindly indicate:</p>
+                </div>
+                <div class="form-group col-lg-6 col-md-4 col-xs-6">
+                    <label>Passport Number</label>
+                    <input class="form-control" type="number" id="PassportNo">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-lg-6 col-md-4 col-xs-6">
+                    <label>Study Permit:</label>
+                    <input class="form-control" type="text"id="StudyPermit">
+                </div>
+                <div class="form-group col-lg-6 col-md-4 col-xs-6">
+                    <label>Expiry Date:</label>
+                    <input class="form-control" type="date"id="ExpiryDate">
+                </div>
             </div>
             <br>
             <p class="section"><strong>SECTION C : SCHOOL LEAVING DETAILS</strong></p>
-            <div>
-                <label>Last School Attended</label>
-                <input class="form-control" type="text">
-                <label>Matric Date</label>
-                <input class="form-control" type="date">
+            <div class="row">
+                <div class="form-group col-lg-6 col-md-6 col-xs-6">
+                    <label>Last School Attended</label>
+                    <input class="form-control" type="text" required>
+                </div>
+                <div class="form-group col-lg-6 col-md-6 col-xs-6">
+                    <label>Highest Grade Passed</label>
+                    <select class="form-control">
+                        <option ></option>
+                        <option>Grade 10</option>
+                        <option>Grade 11</option>
+                        <option>Grade 12</option>
+                    </select required>
+                </div>
             </div>
-            <br>
-            <div>
-                <label>Highest Grade Passed</label>
-                <select>
-                    <option ></option>
-                    <option>Grade 10</option>
-                    <option>Grade 11</option>
-                    <option>Grade 12</option>
-                </select>
+            <div class="row">
+                <div class="form-group col-lg-4 col-md-6 col-xs-8">
+                    <label>Matric Date</label>
+                    <input class="form-control" type="date" required>
+                </div>
             </div>
-            <br>
-            <p><strong>Please attach a certified copy of your academic results or school report</strong></p>
-            <div>
+            <p class="form-group"><strong>Please attach a certified copy of your academic results or school report</strong></p>
+            <div class="form-group">
                 <label>Academic or School Report</label>
-                <input type="file" name="input-b1" id="input-b1">
+                <input type="file" name="input-b1" id="input-b1" required>
+            </div>
+            <div class="form-group">
                 <label>ID Copy</label>
-                <input type="file" name="input-b2" id="input-b2">
+                <input type="file" name="input-b2" id="input-b2" required>
             </div>
             <br>
             <p class="section"><strong>SECTION : D STUDENT ADDRESS </strong></p>
-            <div>
-                <label>Home Address:</label><br>
-                <input class="form-control" type="text"id="HomeAddress"><br>
-                <br>
-                <input class="form-control" type="text"id="HomeAddress"><br>
-                <br>
-                <input class="form-control" type="text"id="HomeAddress">
-                <label>Postal Code</label>
-                <input class="form-control" type="number" >
             </div>
-            <br>
-            <div>
-                <label>Postal Address:</label>
-                <br>
-                <input class="form-control" type="text"id="HomeAddress"><br>
-                <br>
-                <input class="form-control" type="text"id="HomeAddress"><br>
-                <br>
-                <input class="form-control" type="text"id="HomeAddress">
-                <label>Postal Code</label>
-                <input class="form-control" type="number" >
+            <div class="row">
+                <div class="form-group col-lg-6 col-md-6 xs-8">
+                    <label>Postal Address:</label>
+                    <input class="form-control" type="text"id="HomeAddress" required>
+                    <input class="form-control" type="text"id="HomeAddress">
+                    <input class="form-control" type="text"id="HomeAddress">
+                </div>
+                <div class="form-group col-lg-6 col-md-6 xs-8">
+                    <label>Home Address:</label>
+                    <input class="form-control" type="text"id="HomeAddress" required>
+                    <input class="form-control" type="text"id="HomeAddress">
+                    <input class="form-control" type="text"id="HomeAddress">
+                </div>
             </div>
-            <br>
+            <div class="row">
+                <div class="form-group col-lg-6 col-md-6 xs-8">
+                    <label>Postal Code</label>
+                    <input class="form-control" type="number" required>
+                </div>
+                <div class="form-group col-lg-6 col-md-6 xs-8">
+                    <label>Postal Code</label>
+                    <input class="form-control" type="number" required>
+                </div>
+            </div>
             <p class="section"><strong>SECTION E : DISABILITIES/SPECIAL NEEDS </strong></p>
-            <div>
-                <p>Select where applicable :</p>
-                <label>Blindness</label>
-                <input type="checkbox">
-                <label>Psychiatric disorder</label>
-                <input type="checkbox">
-                <label>Low Vision</label>
-                <input type="checkbox"><br>
-                <br>
-                <label>Deafness</label>
-                <input type="checkbox">
-                <label>Intellectually disabled</label>
-                <input type="checkbox">
-                <label>Hearing</label>
-                <input type="checkbox"><br>
-                <br>
-                <label>Epilepsy</label>
-                <input type="checkbox">
-                <label>Physical Challenged</label>
-                <input type="checkbox">
-                <label>Communication</label>
-                <input ctype="checkbox"><br>
-                <br>
-                <label>Specific learning </label>
-                <input type="checkbox">
-                <label>Celebral Palsy</label>
-                <input type="checkbox"><br>
-                <label>Other Specify </label>
-                <input type="text">
+            <p class="form-group">Select where applicable :</p>
+            <div class="row">
+                <div class="form-group col-lg-4 col-md-4 col-xs-6">
+                    <label>Blindness</label>
+                    <input type="checkbox">               
+                </div>
+                <div class="form-group col-lg-4 col-md-4 col-xs-6">             
+                    <label>Psychiatric disorder</label>               
+                    <input type="checkbox">              
+                </div>
+                <div class="form-group col-lg-4 col-md-4 col-xs-6">            
+                    <label>Low Vision</label>       
+                    <input type="checkbox">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-lg-4 col-md-4 col-xs-6">
+                    <label>Deafness</label>               
+                    <input type="checkbox">              
+                </div>
+                <div class="form-group col-lg-4 col-md-4 col-xs-6">            
+                    <label>Intellectually disabled</label>              
+                    <input type="checkbox">               
+                </div>
+                <div class="form-group col-lg-4 col-md-4 col-xs-6">             
+                    <label>Hearing</label>               
+                    <input type="checkbox"><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-lg-4 col-md-4 col-xs-6">
+                    <label>Epilepsy</label>               
+                    <input type="checkbox">               
+                </div>
+                <div class="form-group col-lg-4 col-md-4 col-xs-6">              
+                    <label>Physical Challenged</label>               
+                    <input type="checkbox">              
+                </div>
+                <div class="form-group col-lg-4 col-md-4 col-xs-6">            
+                    <label>Communication</label>              
+                    <input type="checkbox">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-lg-4 col-md-4 col-xs-6">
+                    <label>Specific learning </label>             
+                    <input type="checkbox">              
+                </div>
+                <div class="form-group col-lg-4 col-md-4 col-xs-6">           
+                    <label>Celebral Palsy</label>              
+                    <input type="checkbox">             
+                </div>
+                <div class="form-group col-lg-4 col-md-4 col-xs-6">            
+                    <label>If Other Specify </label>              
+                    <input class="form-control" type="text">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-lg-4 col-md-6 col-xs-8">
+                    <label>Allergies/Health problems </label>
+                    <input class="form-control" type="text" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-lg-6 col-md-6 col-xs-12">
+                    <label>Contact person</label>
+                    <input class="form-control" type="text">
+                </div>
+                <div class="form-group col-lg-6 col-md-6 col-xs-12">
+                    <label>Contact Number</label>
+                    <input class="form-control" type="number">
+                </div>
             </div>
             <br>
-            <div>
-                <label>Allergies/Health problems </label>
-                <input class="form-control" type="text" class="form-control">
-            </div>
-            <br>
-            <div>
-                <label>Contact person</label>
-                <input class="form-control" type="text">
-                <label>Contact Number</label>
-                <input class="form-control" type="number">
-            </div>
-            <br>
-            <div>
-                <label>Dr Name</label>
-                <input class="form-control" type="text">
-                <label>Dr Tel</label>
-                <input class="form-control" type="number">
+            <div class="row">
+                <div class="form-group col-lg-6 col-md-6 col-xs-6">
+                    <label>Dr Name</label>
+                    <input class="form-control" type="text">
+                </div>
+                <div class="form-group col-lg-6 col-md-6 col-xs-6">
+                    <label>Dr Tel</label>
+                    <input class="form-control" type="number">
+                </div>
             </div>
             <br>
             <p class="section"><strong>SECTION F : NEXT OF KIN INFORMATION</strong></p>
-            <div>
-                <label>Parent/Guardian</label>
-                <input class="form-control" type="text">
-                <label>Relationship</label>
-                <input class="form-control" type="text">
+            <div class="row">
+                <div class="form-group col-lg-6 col-md-6 col-xs-6">
+                    <label>Parent/Guardian</label>
+                    <input class="form-control" type="text" required>
+                </div>
+                <div class="form-group col-lg-6 col-md-6 col-xs-6">
+                    <label>Relationship</label>
+                    <input class="form-control" type="text" required>
+                </div>
             </div>
             <br>
-            <div>
-                <label>Postal Address :</label><br>
-                <input class="form-control" type="text"><br>
-                <br>
-                <input class="form-control" type="text">
+            <div class="row">
+                <div class="form-group col-lg-4 col-md-6 col-xs-8">
+                    <label>Postal Address :</label>
+                    <input class="form-control" type="text" required>
+                    <input class="form-control" type="text">
+                </div>
             </div>
-            <br>
-            <div>
-                <label>Postal Code</label>
-                <input class="form-control" type="number">
-                <label>Occupation</label>
-                <input class="form-control" type="text">
+            <div class="row">
+                <div class="form-group col-lg-6 col-md-6 col-xm-6">
+                    <label>Postal Code</label>
+                    <input class="form-control" type="number" required>
+                </div>
+                <div class="form-group col-lg-6 col-md-6 col-xm-6">
+                    <label>Occupation</label>
+                    <input class="form-control" type="text" required>
+                </div>
             </div>
-            <br>
-            <div>
-                <label>Work Tel</label>
-                <input class="form-control" type="number">
-                <label>Cell</label>
-                <input class="form-control" type="number">
+            <div class="row">
+                <div class="form-group col-lg-6 col-md-6 col-xs-6">
+                    <label>Work Tel</label>
+                    <input class="form-control" type="number">
+                </div>
+                <div class="form-group col-lg-6 col-md-6 col-xs-6">
+                    <label>Cell No</label>
+                    <input class="form-control" type="number" required>
+                </div>
             </div>
-            <br>
-            <div>
-                <p><strong>Please attach certified ID Copy(Parent/Guardian)</strong></p>
-                <label>ID Copy</label>
-                <input type="file" id="ParentID">
+            <p class="form-group"><strong>Please attach certified ID Copy(Parent/Guardian)</strong></p>
+            <div class="row">
+                <div class="form-group col-lg-4 col-md-6 col-xs-8">
+                    <label>ID Copy</label>
+                    <input type="file" id="ParentID" required>
+                </div>
             </div>
-            <div>
-                <label> Are you applying for hostel </label>
-                <select>
-                    <option></option>
-                    <option>Yes</option>
-                    <option>No</option>
-                </select>
-                <p><strong>If Yes, please request hostel application form</strong></p>
+            <div class="row">
+                <div class="form-group col-lg-4 col-md-6 col-xs-8">
+                    <label> Are you applying for hostel </label>
+                    <select>
+                        <option></option>
+                        <option>Yes</option>
+                        <option>No</option>
+                    </select>
+                    <p><strong>If Yes, please request hostel application form</strong></p>
+                </div>
             </div>
-            <p class="section"><strong>Section G : Declaration</strong></p>
-            <p> I confirm by submiting this application form that, to the best of my knowledge, the information in this form is correct. I have read the college prospectus. I understand and agree to abide the conditions and regulations of the college, which I accept as a condition of this application. </p>
-            <label><strong>Signature</strong></label>
-            <input type="radio" name="Declaration" id="Signature">
-            <label>Date</label>
-            <input class="form-control" type="date" name="SignatureDate" id="date">
-            <br>
-            <div>
+            <div class="form-group">
+                <p class="section"><strong>Section G : Declaration</strong></p>
+                <p> I confirm by submiting this application form that, to the best of my knowledge, the information in this form is correct. I have read the college prospectus. I understand and agree to abide the conditions and regulations of the college, which I accept as a condition of this application. </p>
+            </div>
+            <div class="row">
+                <div class="form-group col-lg-6 col-md-6 col-xs-6">
+                    <label><strong>Signature</strong></label>               
+                    <input type="radio" name="Declaration" id="Signature" required>              
+                </div>
+                <div class="form-group col-lg-6 col-md-6 col-xs-6">              
+                    <label>Date</label>         
+                    <input class="form-control" type="date" name="SignatureDate" id="date" required>
+                </div>
+            </div>
+            <div class="form-group">
+                Before you click Submit button please make sure you check your details carefully
+            </div>
+            <div class="form-group col-lg-4 col-md-4 col-xs-4">
                 <button type="submit" class="btn btn-success"> Submit </button>
             </div>
         </form>
