@@ -13,6 +13,27 @@ header{
     color: gold;
     padding: .2%;
 }
+.qualification{
+    text-align: center;
+    color: gold;
+    padding: .2%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.Qualification-Headers{
+    font-weight: bold;
+    background-color: goldenrod;
+}
+#Qualification-Notice{
+    font-weight: bold;
+}
+#Qualification-Notice span{
+    color: red;
+}
+.beforeclick{
+    color: red;
+    font-weight: bold;
+}
 .sections{
     background-color: rgb(116, 111, 106);
     color: gold;
