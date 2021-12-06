@@ -15,7 +15,7 @@ header{
 }
 .qualification{
     text-align: center;
-    color: gold;
+    color: goldenrod;
     padding: .2%;
     border: 2px solid black;
     border-radius: 5px;
@@ -46,6 +46,7 @@ label{
 body{
     background-color: whitesmoke;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
 }
 .colors{
     display: flex;
