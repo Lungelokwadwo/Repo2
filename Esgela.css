@@ -4,6 +4,9 @@ html{
 header{
     text-align: center;
 }
+.logo{
+    width: 100%;
+}
 .section{
     background-color: rgb(185, 171, 136);
     color: gold;
@@ -18,6 +21,28 @@ label{
     background-color: darkgrey;
     padding: .3%;
 }
-button{
+body{
+    background-color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.colors{
+    display: flex;
     width: 100%;
+    height: 10px;
+}
+#red{
+    background-color: red;
+    color: red;
+}
+#green{
+    background-color: green;
+    color: green;
+}
+#grey{
+    background-color: grey;
+    color: grey;
+}
+#goldenrod{
+    background-color: goldenrod;
+    color: goldenrod;
 }
