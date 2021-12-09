@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+.brand-title{
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 35px;
+    margin: .5rem;
+    width: 100%;
+}
+section{
+    margin: .5rem;
+}
+section .notApplied{
+    padding-left: 2rem;
+    font-weight: bold;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: darkgrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav li{
+    list-style: none;
+    padding: .3rem 3.3rem;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    padding: .5rem;
+    display: block;
+}
+nav li a:hover{
+    background-color: wheat;
+    border-radius: 50%;
+    border: 0px white solid;
+}
+.active a{
+    background-color: black;
+    border-radius: 50%;
+}
+.homenav{
+    background-color: goldenrod;
+    font-size: 2rem;
+    margin-top: .2rem;
+    text-align: center;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    width: 100%;
+}
+.middle-section p{
+    padding-left: 1.5rem;
+    font-weight: lighter;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.images{
+    width: 33.3333333333%;
+    float: left;
+
+}
+.images img{
+    width: 95%;
+    height: 50%;
+    padding-left: 25px;
+}
+.bottom-note{
+    text-align: center;
+    text-transform: uppercase;
+}
+footer{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    background-color: rgb(233, 227, 227) ;
+    height: 20px;
+    padding: 1.2rem;
+    color: white;
+}
+.visitUs a{
+    padding-left: 35%;
+}
+.contact-image{
+    width: 30%;
+    height: 30%;
+    float: left;
+}
+.contact-image img{
+    width: 50%;
+    height: 60%;
+}
+.about{
+    text-align: center;
+    margin: .5rem;
+}
+.ksd{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.esgelalogo{
+    width: 20%;
+    height: 20%;
+}
+.logoimg{
+    text-align: center;
+    width: 100%;
+}
