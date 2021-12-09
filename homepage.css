@@ -96,13 +96,17 @@ footer{
     height: 30%;
     float: left;
 }
+.contact-section{
+    text-align: center;
+}
 .contact-image img{
     width: 50%;
     height: 60%;
 }
-.about{
+.about p{
     text-align: center;
     margin: .5rem;
+    font-style: normal;
 }
 .ksd{
     font-weight: bold;
