@@ -80,12 +80,11 @@ nav li a:hover{
     text-transform: uppercase;
 }
 footer{
-    bottom: 0;
+    bottom: 0px;
     position: absolute;
     width: 100%;
     background-color: rgb(233, 227, 227) ;
-    height: 20px;
-    padding: 1.2rem;
+    height: 30px;
     color: white;
 }
 .visitUs a{
@@ -141,4 +140,16 @@ th{
 .programmes-note{
     color: red;
     font-size: 18px;
+}
+#aboutMarquee{
+    font-size: 20px; 
+    color: black;
+    border: 0px solid grey;
+    background-color: rgb(253, 251, 247);
+    height: 25px;
+    position: fixed;
+    bottom: 2rem;
+    height: 35px;
+    font-size: 25px;
+    width: 100%;
 }
